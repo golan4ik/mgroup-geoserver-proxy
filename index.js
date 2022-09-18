@@ -1,6 +1,5 @@
 require('./bootstrap');
 const axios = require('axios');
-const { REST_API_URL } = require('./constants');
 
 class Package {
   static REST_API_URL;
@@ -15,9 +14,9 @@ class Package {
   init(params = {}) {
     const { restApiUrl, username, password } = params;
 
-    Package.REST_API_URL = restApiUrl || REST_API_URL;
-    Package.USERNAME = username || 'admin';
-    Package.PASSWORD = password || 'geoserver';
+    Package.REST_API_URL = restApiUrl || '';
+    Package.USERNAME = username || '';
+    Package.PASSWORD = password || '';
 
     axios.interceptors.request.use(function (config) {
 
