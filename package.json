@@ -1,5 +1,5 @@
 {
-  "name": "mgroup-geoserver-proxy",
+  "name": "@golan4ik/mgroup-geoserver-proxy",
   "version": "1.0.0",
   "description": "Package for communication with geoserver",
   "main": "index.js",
