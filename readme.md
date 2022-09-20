@@ -1,6 +1,8 @@
 Installation:
 
+```
 npm i @_golan4ik_/mgroup-geoserver-proxy
+```
 
 Usage:
 
