@@ -1,3 +1,7 @@
+Installation:
+
+npm i @_golan4ik_/mgroup-geoserver-proxy
+
 Usage:
 
 const PackageClass = require('mgroup-geoserver-proxy');
